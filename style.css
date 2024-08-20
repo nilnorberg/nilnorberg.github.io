@@ -1,0 +1,36 @@
+:root {
+    --size: 1.2;
+}
+
+.command {
+    cursor: pointer;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: monospace;
+}
+
+#terminal {
+    width: 70%;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+#animation {
+    width: 30%;
+    padding-top: 150px;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    white-space: pre; /* Preserve spacing for ASCII art */
+    font-size: 0.9em; /* Adjust font size for better visibility */
+}
