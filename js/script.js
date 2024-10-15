@@ -172,7 +172,7 @@ function ready() {
     });
 }
 
+figlet.preloadFonts([FONT], ready);
+
 // Start the animation
 animateCreativeGaussian();
-
-figlet.preloadFonts([FONT], ready);
