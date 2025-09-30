@@ -21,10 +21,10 @@ const commands = {
       term.echo("\nIn my free time, I enjoy experimenting with new ideas to develop digital solutions focused on data privacy and decentralization.");
     },
     github: () => {
-        window.open("https://github.com/nileceozturk");
+        window.open("https://github.com/nilecenorberg");
     },
     linkedin: () => {
-        window.open("https://www.linkedin.com/in/nileceozturk/")
+        window.open("https://www.linkedin.com/in/nilecenorberg/")
     },
     mail: () => {
         const email = decodeEmail(obfuscatedEmail);
@@ -159,7 +159,7 @@ function animateCreativeGaussian() {
 
 // Initialization
 function ready() {
-    term.echo(() => rainbow(render('Nil Ece Ö.')))
+    term.echo(() => rainbow(render('Nil Ece N.')))
         .echo('\nWelcome to my personal webpage\n')
         .echo('<span class="command" style="color: blue;">about</span> | <span class="command" style="color: blue;">linkedin</span> | <span class="command" style="color: blue;">github</span> | <span class="command" style="color: blue;">mail</span> | <span class="command" style="color: blue;">github</span> | <span class="command" style="color: green;">nostr</span>', { raw: true })
         .resume();
