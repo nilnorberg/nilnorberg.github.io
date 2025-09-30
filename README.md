@@ -1,4 +1,4 @@
-# Nil Ece Ö. - Personal Website
+# Nil Ece N. - Personal Website
 
 This is my personal website, featuring an interactive terminal interface and creative animations.
 
